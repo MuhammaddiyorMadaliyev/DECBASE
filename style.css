@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 1500px;
+    padding: 50px;
+    margin: 0 auto;
+}
+.blod{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lip{
+    display: flex;
+    gap: 25px;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+.lip a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+.btn::after{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    content: "";
+    bottom: 0px;
+    left: 0px;
+    border-bottom: 3px solid red;
+    transition: all .3s ease;
+}
+.btn:hover::after{
+    width: 100%;
+    height: 100px;
+}
+
+
+
+
+
+
+.lip button{
+    width: 80px;
+    padding: 3px;
+    border-radius: 8px 0px 8px 0px;
+    background-color: #CAA892;
+    color: white;
+    border: none;
+}
+
+
+
+.block{
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+    gap: 80px;
+    justify-content: center;
+}
+
+.box h1{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.box button{
+    width: 80px;
+    padding: 3px;
+    border-radius: 8px 0px 8px 0px;
+    background-color: #37806B;
+    color: white;
+    border: none;
+    margin-top: 30px;
+}
+
+.lop{
+    display: flex;
+    justify-content: space-between;
+}
+.lop h1{
+    font-size: 40px;
+}
+.lop1 p{
+    color: rgb(104, 104, 104);
+}
+
+.boxs{
+    width: 425px;
+    padding: 20px;
+    border-radius: 40px 0px 40px 0px;
+    margin-top: 50px;
+    border: 3px solid rgb(103, 103, 103);
+}
+
+.boxs{
+    display: flex;
+    gap: 20px;
+}
+
+.boxs1{
+    width: 425px;
+    padding: 20px;
+    border-radius: 40px 0px 40px 0px;
+    margin-top: 50px;
+    box-shadow: 3px 3px 3px 3px;
+    color: white;
+    background-color: #CAA892;
+    
+}
+
+.cardes{
+    display: flex;
+    gap: 55px;
+    
+}
+
+.boxs1{
+    display: flex;
+    gap: 20px;
+}
+
+.news_info p{
+    color: rgb(118, 118, 118);
+}
+.news{
+    background-color: whitesmoke;
+    margin-bottom: 100px;
+}
+
+.new{
+    text-align: center;
+}
+.cards{
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    gap: 150px;
+}
+.card h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card button{
+    background-color: #37806B;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 25px 0px 25px 0px;
+    margin-top: 30px;
+}
+
+
+.top{
+    text-align: center;
+}
+.top hr{
+    width: 300px;
+    margin-left: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.top h1{
+ font-size: 35px;
+}
+
+.botom{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 200px;
+}
+
+.botom input{
+  width: 600px;
+  font-size: 18px;
+  padding: 10px 10px;
+  border-radius: 15px 0px 0px 0px;
+}
+.botom button{
+    padding: 14px 5px;
+    background-color: #37806B;
+    color: white;
+    border: none;
+    border-radius: 0px 0px 15px 0px;
+}
+
+hr{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.alt{
+    background-color: #F8F8F8;
+    padding: 20px;
+    display: flex;
+    gap: 50px;
+}
+
+.alt p{
+    color: #646464;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+.loock{
+    color: #646464;
+    text-align: center;
+}
+
+ span{
+    color: green;
+}
+
+.alt5 h3{
+    margin-bottom: 20px;
+}
+
+.lopo{
+    background-color: whitesmoke;
+}
